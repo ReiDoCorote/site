@@ -1,0 +1,54 @@
+/*This stylesheet contains some custom class rather than Bootstrap*/
+		
+a.brand img {
+	border-radius:50%;
+	border:5px solid #fff;
+}
+.profile, .skills, .work, .resume {
+	padding:30px 0;
+}
+.profile h2, .skills h2, .work h2, .resume h2 {
+	font-weight:normal;
+	color: #d03939;
+}
+/***** Profile *****/
+	.profile h1 {
+	color:#39d066;
+	font-weight: normal;
+}
+.profile h3 {
+	color:#39d0aa;
+	font-weight: normal;
+}
+.profile p {
+	color:#fff;
+	font-size:18px;
+	line-height: 35px;
+	margin-top: 30px;
+}
+.profile .container .span5 {
+	padding:40px 0;
+}
+
+
+.social {
+	text-align:center;
+	padding-bottom:80px;
+}
+ul.social-icons {
+	margin:20px 0;
+}
+ul.social-icons li {
+	list-style:none;
+	display:inline-block;
+	margin:10px;
+}
+ul.social-icons li:first-child {
+	margin-left:0;
+}
+ul.social-icons li a {
+	opacity:0.8;
+}
+ul.social-icons li a:hover {
+	opacity:1;
+}
